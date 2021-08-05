@@ -11,7 +11,7 @@ router
 
         ctx.json({
 
-            message:"welcome Azure"
+            message:"welcome"
         })
     })
 
