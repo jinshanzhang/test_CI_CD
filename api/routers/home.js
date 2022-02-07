@@ -11,7 +11,7 @@ router
 
         ctx.json({
 
-            message:"welcome azure Devops1"
+            message:"welcome azure Devops"
         })
     })
 
