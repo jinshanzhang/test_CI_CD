@@ -32,7 +32,6 @@ const bodyparser=require('koa-bodyparser');
     ctx.status=err.status||500
       ctx.json({
          error:{
-           
              code: err.code || 'internal:unknown_error',
              message:err.message
          }
